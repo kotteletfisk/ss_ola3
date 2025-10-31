@@ -29,6 +29,11 @@ public class PersistenceManager {
         }
     }
 
+
+    public void testMethod () {
+        System.out.println("This is a test method in PersistenceManager.");
+    }
+
     public void createTask(Task t, Connection c) throws SQLException {
 
         String sql = "INSERT INTO tasks VALUES(?, ?)";
