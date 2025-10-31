@@ -210,4 +210,11 @@ public class AppTest {
         assertTrue(task.equals(thing));
     }
 
+    @Test
+    void persistenceManagerTestMethodTest() {
+        PersistenceManager pm = new PersistenceManager();
+        pm.testMethod();
+        assert(false);
+    }
+
 }
